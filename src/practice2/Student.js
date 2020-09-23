@@ -1,5 +1,6 @@
 import { Person } from "./Person";
 
+// TODO feedback:尽量使用export default 导出class
 // eslint-disable-next-line import/prefer-default-export
 export class Student extends Person {
   constructor(name, className) {
